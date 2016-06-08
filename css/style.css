@@ -25,12 +25,12 @@
     
 }
 
-@-webkit-keyframes test1 {
+@keyframes test1 {
     from {width: 0; padding: 0 50px;;}
     to {width: 25; padding 0 10px; opacity: 1;}
 }
 
-@-webkit-keyframes test2 {
+@keyframes test2 {
     from {width: 25; padding: 0 10px;opacity: 1}
     to {width: 0; padding 0 50px; opacity: 0;}
 }
@@ -46,10 +46,10 @@ svg {
     height: 100%;
     padding: 0 10px;
     opacity: 0;
-    -webkit-animation-delay: 0s, 2s;
-    -webkit-animation-duration: 1s, 2s;
-    -webkit-animation-name: test1, test2;
-    -webkit-animation-fill-mode: forwards;
+    animation-delay: 0s, 2s;
+    animation-duration: 1s, 2s;
+    animation-name: test1, test2;
+    animation-fill-mode: forwards;
 }
 
 .C {
@@ -57,20 +57,20 @@ svg {
     height: 100%;
     padding: 0 10px;
     opacity: 0;
-    -webkit-animation-delay: .10s, 2.10s;
-    -webkit-animation-duration: 1s, 2s;
-    -webkit-animation-name: test1, test2;
-    -webkit-animation-fill-mode: forwards;
+   animation-delay: .10s, 2.10s;
+    animation-duration: 1s, 2s;
+    animation-name: test1, test2;
+    animation-fill-mode: forwards;
 }
 .D {
     background-color: Blue;
     height: 100%;
     padding: 0 10px;
     opacity: 0;
-    -webkit-animation-delay: .20s, 2.20s;
-    -webkit-animation-duration: 1s, 2s;
-    -webkit-animation-name: test1, test2;
-    -webkit-animation-fill-mode: forwards;
+    animation-delay: .20s, 2.20s;
+    animation-duration: 1s, 2s;
+    animation-name: test1, test2;
+    animation-fill-mode: forwards;
 }
 /*
 .C {
