@@ -1,0 +1,1 @@
+TweenMax.animate(".V", 1, {rotation:360});

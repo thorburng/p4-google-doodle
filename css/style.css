@@ -1,0 +1,129 @@
+/* Stage */
+
+#stage {
+    background: white;
+    height: 300px;
+    width: 600px;
+}
+
+
+@-webkit-keyframes first {
+    0% {width: 0;}
+    25% {width: 25}
+    50% {padding: 0 50px }
+    100% {padding: 0 10px}
+    
+}
+
+@-webkit-keyframes second {
+    0% {padding: 0 10px}
+    24% {padding: 0 50px}
+    50%{width: : 25}
+    99%{width: 0;}
+    100%{opacity: 0}
+    
+    
+}
+
+@-webkit-keyframes test1 {
+    from {width: 0; padding: 0 50px;;}
+    to {width: 25; padding 0 10px; opacity: 1;}
+}
+
+@-webkit-keyframes test2 {
+    from {width: 25; padding: 0 10px;opacity: 1}
+    to {width: 0; padding 0 50px; opacity: 0;}
+}
+
+
+
+svg {
+    display: inline-block;
+}
+
+.V {
+    background-color: red;
+    height: 100%;
+    padding: 0 10px;
+    opacity: 0;
+    -webkit-animation-delay: 0s, 2s;
+    -webkit-animation-duration: 1s, 2s;
+    -webkit-animation-name: test1, test2;
+    -webkit-animation-fill-mode: forwards;
+}
+
+.C {
+    background-color: Green;
+    height: 100%;
+    padding: 0 10px;
+    opacity: 0;
+    -webkit-animation-delay: .10s, 2.10s;
+    -webkit-animation-duration: 1s, 2s;
+    -webkit-animation-name: test1, test2;
+    -webkit-animation-fill-mode: forwards;
+}
+.D {
+    background-color: Blue;
+    height: 100%;
+    padding: 0 10px;
+    opacity: 0;
+    -webkit-animation-delay: .20s, 2.20s;
+    -webkit-animation-duration: 1s, 2s;
+    -webkit-animation-name: test1, test2;
+    -webkit-animation-fill-mode: forwards;
+}
+/*
+.C {
+    background-color: green;
+ height: 100%;
+    padding: 0 10px;
+    -webkit-animation-delay: 0s, 2s;
+    -webkit-animation-duration: 1s, 2s;
+    -webkit-animation-name: test1, test2;
+    -webkit-animation-fill-mode: forwards; 
+}
+
+.D {
+    Background-color: blue;
+    height: 100%;
+    padding: 0 10px;
+    -webkit-animation-delay: 0s, 2s;
+    -webkit-animation-duration: 1s, 2s;
+    -webkit-animation-name: test1, test2;
+    -webkit-animation-fill-mode: forwards; 
+}
+*/
+
+
+/* DO NOT EDIT BELOW THIS LINE */
+
+input {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACrElEQVR42u2Xz2sTQRSAX8VSb1K8iNqKooJH2Ux6Ksn+iPQqxZMIehJB0do/IMhmQWsvHr2KSEGk0tSLIoWIYNUKij20F2/N7iaUZnYT0kYzzhMKs0HDJiTdLcwHDwKZSd63781LBiQSSW9JZdkhzfKm1Rz9mjZp/W9YdEU3vXv4HsQZ40FtNG36q5rls//Ej4tmbSS2T15Mvp3ExOPmEMQNbBtMMEyoljcFcQN7PqyAlqNfIG7gYQ0tYNIaxA1MrJPY3wImbUqBKAXSFv0tBSIVMOkvKRDtGKWN/T6FdqRAxFNoWwpEPIXqUqBT6ALU/UVgu8GW4GD3f6f9TRDYNJTDrk7YbtiqUumHwIYoUJuHERDAS0r4CvgFECgbY+cFAR7KT+g1POmCKFDNw6WggHc3fBtVb4CAoyauBgXIG+g1Xh5mRAGah6cggBd11fK/h7lOprIs0H6uRl6KAo5O7kOv4QmPiwJ4Jqqv4FiwCtXjvD2+tRmfK6kZ/ygI2HritK0rDVGgrClJ6DWMwYC/AGuCBMYcIC2V0CzvjmbRz3j3xUjn6CfeYreUJ2wQkGD75INPX1mFfsEFrrcIYCvdhC4paWQakxajpJMr0C9YFg54i7AsClRmh9/xnr0NHcInzZStk2aLwAcGMAD9pPIazvFKVDD5rdnhJeHLX5RTyRPQHpz5o66emMc9wdlPtvA8wF7Aq2BUHh1525qEo5JtR1WeOXpickO9cJIpyuD6xJmhYiZ5ytWSl3mlnuOaf+2zDaLDXmJrSgZ/MYVEugo+gSh+FkSBa4yd5Ul87DZ5XpFl/AyIEjzYjkau8WqshU2cr13HPbgX4gJOD97n465GZlyVvC9mSKloKI2iTnbwNT+gBX54H+IaXAtxJzE3ycSAFqSAFJACUkAikXD+AHj5/wx2o5osAAAAAElFTkSuQmCC) no-repeat center right;
+    border: 1px solid #aaa;
+    display: block;
+    padding: 1em;
+    margin: 0 auto;
+    outline: none;
+    line-height: 36px;
+    width: 50%;
+}
+
+div {
+    margin: 3em auto;
+    text-align: center;
+    width: 50%;
+}
+
+button {
+    display: inline-block;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    padding: .5em 1em;
+    text-align: center;
+}
